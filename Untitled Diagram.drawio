@@ -1,61 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15" version="24.7.13">
   <diagram name="Page-1" id="14uuXZwOZyU9mVwmsIaM">
-    <mxGraphModel>
+    <mxGraphModel dx="1237" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="Order Received" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry y="14" width="125" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="3" value="Picking &amp; Packing" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="175" y="14" width="141" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="4" value="Transportation" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="613" y="4" width="121" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="5" value="Delivery" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="784" y="4" width="74" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="6" value="Need&#xa;additional&#xa;packing?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="391" width="153" height="153" as="geometry" />
-        </mxCell>
-        <mxCell id="7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;" edge="1" parent="1" source="2" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=0.26;entryY=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.7;exitY=0;entryX=0.26;entryY=0;" parent="1" target="4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="354" y="-35" />
               <mxPoint x="578" y="-35" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=-0.01;entryY=0.49;" edge="1" parent="1" source="4" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="10" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1.01;exitY=0.49;entryX=0;entryY=0.3;" edge="1" parent="1" source="3" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="354" y="31" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="11" value="Yes" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.56;entryX=0.72;entryY=0.98;" edge="1" parent="1" source="6" target="3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="354" y="91" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="12" value="No" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.26;entryY=0.98;" edge="1" parent="1" source="6" target="4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="578" y="76" />
-            </Array>
+            <mxPoint x="273.6999999999998" y="14" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
